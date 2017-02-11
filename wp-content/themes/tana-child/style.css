@@ -1,0 +1,59 @@
+/*
+Theme Name: The Fox Magazine
+Theme URI: http://www.thefoxmagazine.com/
+Description: Child theme of Tana
+Author: Steve Orchosky
+Author URI: http://steveorchosky.com
+Template: tana
+Version: 0.1
+*/
+@import url("../tana/style.css");
+
+@media screen and (max-width: 900px) {
+    nav.main-nav > ul {
+        display:none!important;
+    }
+    .main-nav {
+        height:50px!important;
+	padding-top:15px!important;
+	padding-bottom:15px!important;
+    }
+    #header .news-search-menu a.burger-menu {
+    	width: 25px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 767px) {
+#header .header-wrapper .right-content {
+    position: initial!important;
+    line-height: 65px;
+    height: 65px;
+    float: left;
+    padding-top: 10px!important;
+}
+#header .header-wrapper .site-branding {
+    position: absolute;
+    left: 26%!important;
+    top: 50%;
+    line-height: 1em;
+    margin-top: 4px;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+	    padding-top: 15px;
+}
+}
+
+.panel-menu {
+    background-color:white;
+}
+
+@media screen and (max-width: 900px)
+#header.header-news nav.main-nav > ul {
+  display:none;
+}

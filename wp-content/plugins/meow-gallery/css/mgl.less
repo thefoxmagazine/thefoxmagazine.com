@@ -1,0 +1,127 @@
+// Removing captions !
+
+.gallery {
+  
+  &.masonry {
+    
+    margin: 0 auto;
+    
+    .gallery-item {
+      background: none !important;
+      padding: 10px;
+      margin: 0;
+      box-sizing: border-box;
+      
+      &.columns-1 {
+        max-width: 100% !important;
+      }
+      
+      &.columns-2 {
+        max-width: 50% !important;
+      }
+      
+      &.columns-3 {
+        max-width: 33.33% !important;
+      }
+      
+      &.columns-4 {
+        max-width: 25% !important;
+			}
+      
+      &.columns-5 {
+        max-width: 20% !important;
+      }
+      
+      @media screen and (max-width: 960px) {
+        &.columns-3 {
+          max-width: 50% !important;
+        }
+
+        &.columns-4 {
+          max-width: 33.33% !important;
+        }
+
+        &.columns-5 {
+          max-width: 25% !important;
+        }
+      }
+      
+      @media screen and (max-width: 660px) {
+        &.columns-2 {
+          max-width: 100% !important;
+        }
+
+        &.columns-3 {
+          max-width: 50% !important;
+        }
+
+        &.columns-4 {
+          max-width: 50% !important;
+        }
+
+        &.columns-5 {
+          max-width: 50% !important;
+        }
+      }
+
+      img {
+        width: 100%;
+				display: block;
+      }
+    }
+
+    figcaption {
+      display: none;
+    }  
+    
+  }
+	
+	&.justified {
+		margin: 0 auto;
+		overflow: hidden;
+
+		.gallery-item {
+			opacity: 0;
+			float: left;
+			box-sizing: border-box;
+		}
+
+		.gallery-item img {
+			width: 100%;
+			height: 100%;
+		}
+
+		.gallery-item.loaded {
+			opacity: 1;
+			transition: opacity .5s;
+		}
+		
+		figcaption {
+		  display: none;
+		}
+	}
+	
+	&.horizontal-slider {
+		display: flex; 
+		flex-direction: row;
+		height: 400px;
+		width: 100%;
+		font-size: 0;  
+		overflow-x: scroll;
+		box-sizing: padding-box;
+		
+		.gallery-item {
+			flex-grow: 1;
+			flex-shrink: 0;
+			width: auto;
+			max-width: none;
+			padding: 0 5px;
+			
+			img {  
+			  height: 400px;
+			  width: auto;
+			  transition: .8s opacity;
+			} 
+		}
+	}
+}

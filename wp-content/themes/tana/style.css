@@ -1,0 +1,307 @@
+/*
+Theme Name: Tana
+Theme URI: http://tana.themeton.com
+Author: ThemeTon
+Author URI: http://themeton.com
+Description: Magazine, News and Blog Theme
+Version: 1.1.5
+License:
+License URI:
+Text Domain: tana
+Tags: custom-header, custom-menu, editor-style, featured-images, post-formats, sticky-post, translation-ready
+*/
+
+
+/* 
+--------------------------------------------------
+    
+    TABLE OF CONTENTS
+
+    1. Elements
+    2. Content
+    3. Blog
+    4. Comments
+    5. Page
+    6. Portfolio
+    7. Widgets
+    8. Footer
+    9. Helpers
+    10. Responsive
+
+--------------------------------------------------
+*/
+
+
+/* 
+Default styles 
+-------------------------------------------------- */
+@font-face {
+    font-family: 'SF-UI-Display';
+    font-weight: 900;
+    src: url(fonts/SF-UI-Display-Black.otf);
+}
+@font-face {
+    font-family: 'SF-UI-Display';
+    font-weight: 800;
+    src: url(fonts/SF-UI-Display-Heavy.otf);
+}
+@font-face {
+    font-family: 'SF-UI-Display';
+    font-weight: 700;
+    src: url(fonts/SF-UI-Display-Bold.otf);
+}
+@font-face {
+    font-family: 'SF-UI-Display';
+    font-weight: 600;
+    src: url(fonts/SF-UI-Display-Semibold.otf);
+}
+@font-face {
+    font-family: 'SF-UI-Display';
+    font-weight: 500;
+    src: url(fonts/SF-UI-Display-Medium.otf);
+}
+@font-face {
+    font-family: 'SF-UI-Display';
+    font-weight: 400;
+    src: url(fonts/SF-UI-Display-Regular.otf);
+}
+@font-face {
+    font-family: 'SF-UI-Display';
+    font-weight: 300;
+    src: url(fonts/SF-UI-Display-Light.otf);
+}
+@font-face {
+    font-family: 'SF-UI-Display';
+    font-weight: 200;
+    src: url(fonts/SF-UI-Display-Thin.otf);
+}
+@font-face {
+    font-family: 'SF-UI-Display';
+    font-weight: 100;
+    src: url(fonts/SF-UI-Display-Ultralight.otf);
+}
+
+
+img {
+    -ms-interpolation-mode: bicubic;
+    border: 0;
+    height: auto;
+    max-width: 100%;
+}
+button, input,select,textarea {
+    max-width: 100%;
+    vertical-align: baseline;
+    padding: 10px;
+    color: #3b3b3b;
+}
+.wpcf7-form input{
+    padding: 2px 10px;
+}
+.wpcf7-form .wpcf7-submit{
+ padding: 20px;
+}
+table,th,td {
+    border: 1px solid #eaeaea;
+    border: 1px solid rgba(51, 51, 51, 0.1);
+}
+.address-box td {
+    border: 0;
+ 
+}
+.address-box table {
+    border: 0;
+ 
+}
+.address-box td {
+   text-align: left;
+ 
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.6em;
+    width: 100%;
+}
+caption,th,td {
+    font-weight: normal;
+    text-align: left;
+}
+
+th {
+    border-width: 0 1px 1px 0;
+    font-weight: 700;
+}
+td {
+    border-width: 0 1px 1px 0;
+}
+th,td {
+    padding: 0.4em;
+    text-align: center;
+}
+/* Text meant only for screen readers */
+.says,
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    width: 1px;
+}
+/* Page links */
+.content-text {margin-top:20px;}
+.page-links {clear:both;}
+.page-links a,
+.page-links > span {
+    border: 1px solid #eaeaea;
+    display: inline-block;
+    height: 2em;
+    line-height: 2;
+    margin: 0 0.3333em 0.3333em 0;
+    text-align: center;
+    width: 2em;
+}
+.page-links a {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0.3);
+    background-color: #333;
+    border-color: #333;
+    color: #fff !important;
+}
+.page-links a:hover,
+.page-links a:focus {
+    text-decoration: none;
+    background-color: #222;
+}
+.page-links > .page-links-title {
+    border: 0;
+    padding-right: 0.5em;
+    width: auto;
+    color: #000;
+}
+.wp-caption,.wp-caption-text,.gallery-caption,.bypostauthor,.alignright,.alignleft,.aligncenter,.tags{}
+.vc_row.no-row-padding div[class^="vc_col-"]{padding-left:0;padding-right:0;}
+/**
+ * Galleries
+ */
+.gallery {
+    margin-bottom: 1.6em;
+}
+.gallery-item {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+    padding-left: 0px;
+    margin-bottom: 15px;
+}
+.gallery-item .gallery-icon img { margin-bottom:0;}
+.gallery-columns-2 .gallery-item {
+    max-width: 50%;
+}
+.gallery-columns-3 .gallery-item {
+    max-width: 33.33%;
+}
+.gallery-columns-4 .gallery-item {
+    max-width: 25%;
+}
+.gallery-columns-5 .gallery-item {
+    max-width: 20%;
+}
+.gallery-columns-6 .gallery-item {
+    max-width: 16.66%;
+}
+.gallery-columns-7 .gallery-item {
+    max-width: 14.28%;
+}
+.gallery-columns-8 .gallery-item {
+    max-width: 12.5%;
+}
+.gallery-columns-9 .gallery-item {
+    max-width: 11.11%;
+}
+.gallery-icon img {
+    margin: 0 auto;
+}
+.gallery-caption {
+    color: #707070;
+    color: rgba(51, 51, 51, 0.7);
+    display: block;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding: 0.5em 0;
+}
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+    display: none;
+}
+/* Pingback */
+.edit-link {
+    margin-left: 5px;
+}
+/* Helper classes: Content Alignments */
+.alignleft {
+    display: inline;
+    float: left;
+}
+.alignright {
+    display: inline;
+    float: right;
+}
+.aligncenter {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+blockquote.alignleft,
+.wp-caption.alignleft,
+img.alignleft {
+    margin: 0.4em 1.6em 1.6em 0;
+}
+blockquote.alignright,
+.wp-caption.alignright,
+img.alignright {
+    margin: 0.4em 0 1.6em 1.6em;
+}
+blockquote.aligncenter,
+.wp-caption.aligncenter,
+img.aligncenter {
+    clear: both;
+    margin-top: 0.4em;
+    margin-bottom: 1.6em;
+}
+.wp-caption.alignleft,
+.wp-caption.alignright,
+.wp-caption.aligncenter {
+    margin-bottom: 1.2em;
+}
+/* Captions */
+.wp-caption {
+    margin-bottom: 1.6em;
+    max-width: 100%;
+}
+.wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin: 0;
+}
+.wp-caption-text {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 0.5em 0;
+    text-align: center;
+}
+iframe, embed { width: 100%; }
+.post.sticky{
+    border-left: 3px solid #ccc;
+    padding-left: 30px;
+}
+
+
+html.opened-push-sidebar,
+body.opened-push-sidebar{
+    overflow: hidden;
+}

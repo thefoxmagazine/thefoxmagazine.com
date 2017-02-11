@@ -1,0 +1,74 @@
+.folded #wpcontent, .folded #wpfooter {
+	margin-left: 36px;
+}
+
+#wpcontent {
+	padding-left: 20px;
+}
+
+#wpcontent, #wpfooter {
+	margin-left: 160px;
+}
+
+.is-dismissible-notice {
+	padding-right: 38px;
+	position: relative;
+}
+
+.notice-dismiss-button {
+    position: absolute;
+    top: 0;
+    right: 1px;
+    border: none;
+    margin: 0;
+    padding: 9px;
+    background: 0 0;
+    color: #b4b9be;
+    cursor: pointer;
+}
+
+.notice-dismiss-button:before {
+	background: 0 0;
+	color: #b4b9be;
+	content: "\f153";
+	display: block;
+	font: 400 16px/20px dashicons;
+	speak: none;
+	height: 20px;
+	text-align: center;
+	width: 20px;
+
+}
+
+div.notice-warning {
+	border-left-color: #ffb900;
+}
+.notice, div.error, div.updated {
+	background: #fff;
+	border-left: 4px solid #fff;
+	-webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+	margin: 5px 15px 2px;
+	padding: 1px 12px;
+}
+
+
+.screen-reader-text {
+    position: absolute;
+    margin: -1px;
+    padding: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    border: 0;
+    word-wrap: normal!important;
+}
+
+@media screen and (max-width: 782px) {
+	.auto-fold #wpcontent {
+		position: relative;
+		margin-left: 0;
+		padding-left: 10px;
+	}
+}

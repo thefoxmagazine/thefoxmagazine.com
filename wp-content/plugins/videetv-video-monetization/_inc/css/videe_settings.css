@@ -1,0 +1,80 @@
+.videe-settings .wrap {
+	position: relative;
+}
+
+.videe-settings h1{
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.videe-settings fieldset {
+	border: 2px solid #000;
+	width: 10px;
+	padding: 15px;
+	width: 600px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+} 
+
+.videe-settings legend>span {
+	border: 2px solid #000;
+    width: 10px;
+    display: inline;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.videe-settings .save {
+    margin-top: 25px;
+}
+
+.videe-settings .save input[type=submit]{
+    float:left;
+}
+
+.videe-settings .spinner_update{
+    background: url('/wp-admin/images/wpspin_light.gif') no-repeat;
+    background-size: 20px 20px;
+    display: none;
+    float: left;
+    opacity: .7;
+    filter: alpha(opacity=70);
+    width: 20px;
+    height: 20px;
+    margin: 5px 5px 0;
+}
+	
+
+
+
+.videe-settings .settings-container label{
+    font-size:  15px;
+    font-weight: bold;
+}
+
+.videe-settings a.activate{
+    color: rgb(52, 145, 196);
+}
+
+.videe-settings .label{
+   color: rgb(57, 57, 57); 
+}
+
+.videe-settings .label input {
+    margin: 0px 5px;
+}
+
+.videe-settings .label input[type="text"] {
+    width: 250px;
+}
+
+.videe-settings div .option-notice{
+   color: rgb(121, 121, 121); 
+   margin: 5px 0px;
+}
+
+.videe-settings .setting-header-block {
+    position: relative;
+}

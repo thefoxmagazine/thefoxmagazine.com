@@ -1,0 +1,88 @@
+#categoryposttab {	margin:0; padding:0; font-size:12px; font-weight:normal; text-transform: none;} 
+#categoryposttab a { border-bottom:0;text-decoration:none}
+#categoryposttab .ik-pst-tab-title-head{ color:#fff; font-weight:bold; margin-bottom:2px; font-size: 15px; padding:8px 13px;} 
+#categoryposttab .wp-load-icon { display:none; margin-left:10px; width:10px; height:10px; background-color:#fff; } 
+#categoryposttab .item-pst-list{ background: none; padding:0; margin:0px 0px 2px 0px; color:#424242; border: 1px solid #ebebeb;	  }
+#categoryposttab .item-posts { background: #F7F7F7; border: 1px solid rgb(236, 236, 236); padding: 10px; }  
+#categoryposttab .ik-prouct-search-text { width:60px; padding:3px;}
+#categoryposttab .pst-item{ cursor:pointer; background: #F1F1F1; padding:0px 25px 0px 13px;font-weight:normal; font-size: 12px;  border-left:1px solid #696969;  }
+#categoryposttab .pst-item{  	position: relative;	-webkit-transition: all 0.4s;overflow: hidden;transition: all 0.4s; -moz-transition: all 0.4s;} 
+#categoryposttab  input.ik-post-search-text { height:29px; font-size: 12px; margin:0; width:100%; border:1px solid #ccc; padding:0px 2px }
+#categoryposttab  select.ik-drp-post-category { height:26px; font-size: 12px; margin:0; text-align: left; width:100%;  border:1px solid #ccc; padding:0 1px; }
+#categoryposttab .ik-post-category {   padding:10px 3px; }
+#categoryposttab .ik-post-category span{ float:left; width:20px; height:20px}
+#categoryposttab .ik-post-category .ik-search-title { float:left; width:164px;margin-right:10px;font-weight: normal; }
+#categoryposttab .ik-post-category .ik-search-button { cursor:pointer; width:18px; height:18px; float:left;  padding-top: 3px; margin-left: 7px; }
+#categoryposttab .ik-post-category  .ik-search-category { width:164px;  float:left;font-weight: normal;  }
+#categoryposttab .ik-post-item { float:left;padding:5px 0 0 0; margin:0 0.5%}
+#categoryposttab .ik-post-item p { margin:0; padding:0}
+#categoryposttab .ik-post-load-more{ cursor:pointer;  text-align:center; padding:10px 5px 5px; text-align:center; 	font-size: 12px;font-weight:bold; clear:both; padding-bottom: 10px;	position: relative;	-webkit-transition: all 0.8s;overflow: hidden;transition: all 0.8s; 	-moz-transition: all 0.8s; }
+#categoryposttab .ik-post-load-more:before {	content:url("../images/ac_bottom.png");	height: 100%; -webkit-transition: all 0.8s;-moz-transition: all 0.8s; position: absolute; top:55%; left: 49%; 	transition: all 0.8s; }
+#categoryposttab .ik-post-load-more:hover:before {top: 1%;} 
+#categoryposttab .ik-post-load-more:hover { color:#0e83cd !important; }
+#categoryposttab  .ik-post-content .ik-post-name { margin-top:5px; font-size: 12px; word-wrap:break-word}
+#categoryposttab  .ik-post-content .ik-post-name a { text-decoration:none; border:0; word-wrap:break-word;font-weight: normal;}
+#categoryposttab  .ik-post-content .ik-post-name a:hover{ transition: all 0.5s ease-out 0.7s; color:#ccc;font-weight: normal; } 
+#categoryposttab  .ik-post-image img { width:100%} 
+#categoryposttab  .ik-post-no-items { padding:10px 10px 10px 4px; font-size:13px }
+#categoryposttab .pst-item{ clear:both; position:relative}
+#categoryposttab  .pst-item-text {   float:left; min-height:18px;margin: 8px 0;}
+#categoryposttab  .ld-pst-item-text  { width:22px; height:22px; right:0%;  position:absolute; top:9px }
+#categoryposttab  .ik-load-content-cnt { width:20px; height:20px; -webkit-box-shadow: 0px 1px 1px #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1);	-moz-box-shadow: 0px 1px 1px #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1); box-shadow: 0px 1px 1px #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1);   margin-top:0px; padding:1px; display:block;  background-color:#f7f7f7; -webkit-border-radius:10px; -moz-border-radius:10px; border-radius:10px;    }
+#categoryposttab  .ik-load-content { width:20px; height:20px; }
+#categoryposttab  .ik-load-content-more { padding:10px;  transition: all 0.4s ease 0s; }
+#categoryposttab  .ik-load-content-more:hover { color:#fff !important; }
+#categoryposttab  .clr, #categoryposttab  .clrb { clear:both}
+#categoryposttab  .ik-post-image { position :relative; }
+#categoryposttab div.ov-layer  .ik-overlay-post-content  { margin-top:0px;color:#000;background:#fff; padding:5px; border-bottom:1px solid #fff;border-top:1px solid #fff; }
+#categoryposttab div.ov-layer  .ik-overlay-post-content .ik-post-name {line-height:16px;text-decoration:none;}
+#categoryposttab div.ov-layer  .ik-overlay-post-content .ik-post-name a {  border:0; text-decoration:none; position:relative }  
+#categoryposttab div.ov-layer {display:block; visibility:hidden;position:relative; top:40px; left:0;-webkit-transition: -webkit-transform 1s;   position: absolute; -o-transition-duration: 1s; 	width:  100%; -moz-transition-duration: 1s;  -webkit-transition: -webkit-transform 1s; z-index: 10; cursor: pointer; height: 100%;  background:url(../images/view.png) right bottom no-repeat #000; opacity: 0; color:#fff; font-size:13px;} 
+#categoryposttab div.ov-layer:hover {box-shadow: 0px 0px 3px #000;-moz-transition-duration: 1s; -webkit-transition: -webkit-transform 1s; -o-transition-duration: 1s; -webkit-box-shadow: 0px 0px 3px #333; -moz-box-shadow: 0px 0px 3px #333; opacity: .6;}  
+#categoryposttab button { margin:0px; padding:0px; float:none;}
+#categoryposttab .btn-crt, #categoryposttab #btnSearch { padding:0px; margin:0px; border:0px; background: #EBEBEB !important; color: #464646; padding:3px 8px; font-size:11px; width:100% }
+#categoryposttab .btn-crt { margin:5px 0; font-style:normal; cursor:pointer;font-weight: normal;position: relative;	-webkit-transition: all 0.8s;overflow: hidden;transition: all 0.8s; -moz-transition: all 0.8s; -webkit-box-shadow: 0px 1px 1px #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1);-moz-box-shadow: 0px 1px 1px #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1); box-shadow: 0px 3px #DBDBDB;  } 
+#categoryposttab .btn-crt:hover{ color:#0e83cd !important; }
+#categoryposttab .btn-crt:before { height: 100%; -webkit-transition: all 0.8s; -moz-transition: all 0.8s; position: absolute;	top:20%; left: 125%; transition: all 0.8s; }
+#categoryposttab .bt-cart:before {	content:url("../images/cart.png"); }	
+#categoryposttab .post_wc_view:before {	content:url("../images/view-more.png"); }	
+#categoryposttab .btn-crt:hover:before { left: 88%; }
+#categoryposttab .item-posts{ padding:10px 10px; background-color:#fff}
+#categoryposttab  .pn-active, #categoryposttab  .pn-active-bg{ background-color:#FEFEFE !important;     } 
+#categoryposttab input.ik-post-search-text:focus, 
+#categoryposttab select.ik-drp-post-category:focus { background-color:#FFF; } 
+#categoryposttab.pane_style_1  .pst-item{ border-left:0 !important; }
+
+/* Pane Style 2 Start */
+#categoryposttab.pane_style_2 .item-pst-list, #categoryposttab.pane_style_2 .ik-pst-tab-title-head {	border: 1px solid #e7e7e7;  border-radius: 0px; }
+#categoryposttab.pane_style_2 .pst-item{ -webkit-box-shadow: 0px 1px 1px #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1);-moz-box-shadow: 0px 1px 1px #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1); box-shadow: 0px 1px 1px #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1); } 
+ /*Pane Style 2 End */
+
+ /* Pane Style 3 Start */ 
+#categoryposttab.pane_style_3 .item-pst-list, #categoryposttab.pane_style_3 .ik-pst-tab-title-head{ border:0!important;-webkit-border-radius:18px;-moz-border-radius:18px;border-radius:18px; 	 }
+#categoryposttab.pane_style_3 .pst-item{-webkit-border-radius:18px !important; border:1px solid #ececec !important;	-moz-border-radius:18px !important;-webkit-border-radius:18px !important;	border-radius:18px !important;  }  
+/* Pane Style 3 End */   
+
+/* Tab Style 2 Start */
+#categoryposttab.tab_style_2 .item-pst-list, #categoryposttab.tab_style_2 .ik-pst-tab-title-head { border: 1px solid #e7e7e7; -webkit-box-shadow: 0px 1px 1px #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 1px 1px #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1);	box-shadow: 0px 1px 1px #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1);	border-radius: 0px; }
+#categoryposttab.tab_style_2 .pst-item { -webkit-box-shadow: 0px 1px 1px #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 1px 1px #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1); box-shadow: 0px 1px 1px #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1); } 
+/* Tab Style 2 End */
+/* Tab Style 3 Start */
+#categoryposttab.tab_style_3 .item-pst-list,.tab_style_3 .ik-pst-tab-title-head{	-webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; border: 1px solid #e7e7e7; -webkit-box-shadow: 0px 1px 1px #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1); -moz-box-shadow: 0px 1px 1px #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1); box-shadow: 0px 1px 1px #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1); }
+#categoryposttab.tab_style_3 .pst-item { -webkit-border-radius:4px; -moz-border-radius:4px;	border-radius:4px; -webkit-box-shadow: 0px 1px 1px #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1);	-moz-box-shadow: 0px 1px 1px #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1); box-shadow: 0px 1px 1px #fff inset, 1px 1px 3px rgba(0, 0, 0, 0.1); border-left:2px solid #696969;}
+#categoryposttab.tab_style_3 .pn-active { border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px;} 
+/* Tab Style 3 End */  
+ 
+
+#categoryposttab .disp_title_over_img .ik-post-item { min-height:auto !important }
+#categoryposttab .lt-tab .item-pst-list { width:auto; float:left;	margin-right:2px;}
+#categoryposttab .lt-tab .item-pst-list .ik-load-content{ margin-left:5px;}
+ 
+
+@media only screen and (max-width: 1280px) { #categoryposttab .ik-post-item { width: 20%; } }
+@media only screen and (max-width: 1024px) { #categoryposttab .ik-post-item { width: 25%; } }
+@media only screen and (max-width: 768px) { #categoryposttab .ik-pst-tab-title-head  { font-size:12px} }
+@media only screen and (max-width: 640px) {	#categoryposttab .ik-post-item { width: 33%; } }
+@media only screen and (max-width: 480px) {	#categoryposttab .ik-post-item { width: 50%; } }
+@media only screen and (max-width: 360px) { #categoryposttab .ik-post-category .ik-search-title { width: 128px; } 	#categoryposttab .ik-post-category .ik-search-category { width: 139px; } }
+@media only screen and (max-width: 320px) { #categoryposttab .ik-post-category .ik-search-category { width: 101px; } } 

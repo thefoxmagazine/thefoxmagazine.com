@@ -1,0 +1,35 @@
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close:hover {
+	&:hover {
+		background: none;
+	}
+}
+
+/* Search & 404 page */
+.page404, .search-no-results .articles{
+	.search_form{
+		position: relative;
+		margin-top: 30px;
+		margin-bottom: 60px;
+		display: block;
+		max-width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+
+		input {
+			border: 0px;
+			border-bottom: 1px solid fade(@color-text, 20%);
+			width: 100%;
+		}
+		button, input[type=submit] {
+			border-radius: 0px;
+			border: 0px;
+			color: @color-title;
+			background: none;
+			position: absolute;
+			top: 50%;
+			right: 0px;
+			padding: 0px;
+			.translateY(-50%);
+		}
+	}
+}
